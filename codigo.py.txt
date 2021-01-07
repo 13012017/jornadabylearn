@@ -1,0 +1,18 @@
+primeiro_numero = float(input('digite o primeiro numero'))
+segundo_numero = float(input('digite o segundo numero'))
+
+#operaçoes matematicas 
+soma = primeiro_numero + segundo_numero
+subtracao = primeiro_numero - segundo_numero
+divisao = primeiro_numero / segundo_numero
+multiplicacao = primeiro_numero * segundo_numero
+
+# saidas dos calculos 
+print(f' a soma entre { primeiro_numero } e {segundo_numero } e { soma }')
+print(f' a divisao entre { primeiro_numero } e { segundo_numero } e {divisao }')
+print(f' a subtracao entre { primeiro_numero} e {segundo_numero } e { subtracao }')
+print(f' a multiplicacao entre { primeiro_numero } e { segundo_numero } e { multiplicacao }')
+print('a soma e',soma)
+print('a divisao e', divisao)
+print('a multiplicacao e',multiplicacao)
+print('a subtracao e',subtracao)
